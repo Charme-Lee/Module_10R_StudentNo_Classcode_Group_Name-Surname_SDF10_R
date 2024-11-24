@@ -25,6 +25,7 @@ const addButtonEl = document.getElementById("add-button");
 const shoppingListEl = document.getElementById("shopping-list");
 const deleteBtn = document.getElementById("delete-btn");
 
+//
 deleteBtn.addEventListener("click", function () {
   remove(shoppingListInDB);
   shoppingListEl.innerHTML = "";
